@@ -1,10 +1,9 @@
 version: "3.7"
 services:
-  app_proxy:
-    environment:
-      # Formato correto para o Umbrel
-      APP_HOST: chevereto-server_1
-      APP_PORT: 8888
+app_proxy:
+  environment:
+    APP_HOST: chevereto-server_1
+    APP_PORT: 80
     
   server:
     image: chevereto/chevereto:latest
@@ -18,7 +17,7 @@ services:
     depends_on:
       - db
     expose:
-      - 8888
+      - 8888:80
     environment:
       CHEVERETO_DB_HOST: db
       CHEVERETO_DB_USER: chevereto
