@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: chevereto-chevereto
+name: Chevereto
+version: "1.0.0"
+tagline: Self-hosted media sharing platform
+icon: https://raw.githubusercontent.com/chevereto/chevereto/4.0/content/images/logo.svg
+category: Media
+port: 80
+description: >-
+  Open source image hosting service with powerful
+  features for photo and media sharing. Chevereto allows you to create
+  your own full-featured image hosting website on your own server.
+
+developer: Chevereto Team
+website: https://chevereto.com
+submitter: Chevereto
+submission: https://github.com/chevereto/chevereto
+repo: https://github.com/chevereto/chevereto
+support: https://github.com/chevereto/chevereto/issues
+gallery:
+  - https://chevereto.com/app/themes/v3/img/devices.png
+  - https://chevereto.com/app/themes/v3/img/features/file-handling.png
+  - https://chevereto.com/app/themes/v3/img/features/content-manager.png
+releaseNotes: >-
+  Initial Umbrel app release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
