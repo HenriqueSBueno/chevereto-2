@@ -1,11 +1,10 @@
 version: "3.7"
 
 services:
-  app_proxy:
-    environment:
-      # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: chevereto-chevereto_server_1
-      APP_PORT: 80
+app_proxy:
+  environment:
+    APP_HOST: chevereto-server_1
+    APP_PORT: 80
 
   server:
     image: chevereto/chevereto:latest
