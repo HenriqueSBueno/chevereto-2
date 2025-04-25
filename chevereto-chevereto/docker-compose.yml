@@ -17,7 +17,7 @@ app_proxy:
     depends_on:
       - db
     expose:
-      - 8888:80
+      - 80
     environment:
       CHEVERETO_DB_HOST: db
       CHEVERETO_DB_USER: chevereto
