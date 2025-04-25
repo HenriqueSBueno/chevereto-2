@@ -5,7 +5,7 @@ version: "1.0.0"
 tagline: Self-hosted media sharing platform
 icon: https://raw.githubusercontent.com/chevereto/chevereto/4.0/content/images/logo.svg
 category: Media
-port: 80
+port: 9999
 description: >-
   Open source image hosting service with powerful features for photo and media sharing. 
   Chevereto allows you to create your own full-featured image hosting website on your own server.
